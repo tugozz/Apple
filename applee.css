@@ -39,7 +39,7 @@
   color: #1d1d1f;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .navigation {
     display: none;
   }
@@ -52,6 +52,16 @@
     margin-left: auto;
   }
 
+  .pictures {
+    background-image: url(./images/Figure.png);
+    height: 650px;
+  }
+
+  .pictures2 {
+    background-image: url(./images/iphone\ 950.png);
+    height: 650px;
+  }
+
   .paragraph {
   }
 }
@@ -59,9 +69,12 @@
 .pictures {
   background-image: url(./images/Background.png);
   background-repeat: no-repeat;
+  width: 100vw;
   background-size: cover;
-
+  background-position: center;
+  padding-block: 55px 36px;
   height: 692px;
+  margin-bottom: 12px;
 }
 
 .mini-fix {
@@ -105,4 +118,53 @@
   display: flex;
   column-gap: 16px;
   justify-content: center;
+}
+
+.pictures2 {
+  background-image: url(./images/iphone2.png);
+  background-repeat: no-repeat;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  padding-block: 55px 36px;
+  height: 692px;
+  margin-bottom: 12px;
+}
+
+.pictures3 {
+  background-image: url(./images/smart.png);
+  background-repeat: no-repeat;
+
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  padding-block: 55px 36px;
+  height: 692px;
+  margin-bottom: 12px;
+}
+
+.mini-fixx {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-weight: 600;
+}
+
+.mini-fixx2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 16px 20px;
+}
+
+.nothing {
+  display: flex;
+  justify-content: flex-end;
 }
