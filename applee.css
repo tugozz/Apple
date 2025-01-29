@@ -64,6 +64,11 @@
 
   .paragraph {
   }
+
+  .pictures3 {
+    background-image: url(./images/photo.png);
+    height: 650px;
+  }
 }
 
 .pictures {
@@ -134,13 +139,13 @@
 .pictures3 {
   background-image: url(./images/smart.png);
   background-repeat: no-repeat;
-
   width: 100vw;
   background-size: cover;
   background-position: center;
   padding-block: 55px 36px;
   height: 692px;
   margin-bottom: 12px;
+  justify-content: flex-end;
 }
 
 .mini-fixx {
@@ -164,7 +169,207 @@
   margin-block: 16px 20px;
 }
 
-.nothing {
+.button-style3 {
+  background-color: #0071e3;
+  color: white;
+  border-radius: 999px;
+  width: 68px;
+  height: 44px;
+}
+
+.container {
+  display: grid;
+  grid-auto-rows: 580px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.zurag1 {
+  background-image: url(./images/zurag1.png);
+  height: 580px;
   display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 48px 58px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.zurag2 {
+  background-image: url(./images/zurag2.png);
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 401px;
+}
+
+.zurag3 {
+  background-image: url(./images/zurag3.png);
+  height: 580px;
   justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.zurag4 {
+  background-image: url(./images/zurag4.png);
+  height: 580px;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.zurag5 {
+  background-image: url(./images/zurag5.png);
+  height: 580px;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.zurag6 {
+  background-image: url(./images/zurag6.png);
+  height: 580px;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.zurag1-header {
+  background-image: url(./images/Heading\ 3.png);
+  height: 33px;
+  width: 430px;
+  margin-bottom: 9px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  grid-template-rows: auto;
+}
+
+.footer1 {
+  background-image: url(./images/footer1.png);
+  height: 668px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer2 {
+  background-image: url(./images/footer2.png);
+  height: 668px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer3 {
+}
+
+.footer4 {
+}
+
+.footer5 {
+}
+
+.footer6 {
+}
+
+.footer7 {
+}
+
+.footer8 {
+}
+
+.container h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.button-footer {
+  width: Hug (199px) px;
+  height: Hug (40px) px;
+  top: 145px;
+  left: 371px;
+  gap: 16px;
+  opacity: 0px;
+  margin-top: 20px;
+}
+
+.style1 {
+  background-color: #0071e3;
+  width: Hug (115px) px;
+  height: Hug (40px) px;
+  padding: 10px 16px 10px 16px;
+  gap: 10px;
+  border-radius: 999px;
+  opacity: 0px;
+}
+
+.style2 {
+  border: 1px solid #2997ff;
+  width: Hug (68px) px;
+  height: Hug (40px) px;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 999px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.container h3 {
+  margin-top: 324px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+}
+
+.zurag2 h2 {
+  /* background: #F5F5F7; */
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+
+  top: 482px;
+}
+
+.zurag2 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-block: 16px 20px;
 }
