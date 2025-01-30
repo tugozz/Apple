@@ -39,7 +39,7 @@
   color: #1d1d1f;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 768px) {
   .navigation {
     display: none;
   }
@@ -68,6 +68,10 @@
   .pictures3 {
     background-image: url(./images/photo.png);
     height: 650px;
+  }
+
+  .zurag1 {
+    background-image: url(./);
   }
 }
 
@@ -109,6 +113,7 @@
   border-radius: 999px;
   color: white;
   background-color: #0071e3;
+  border: solid;
 }
 
 .button-style2 {
@@ -146,6 +151,7 @@
   height: 692px;
   margin-bottom: 12px;
   justify-content: flex-end;
+  padding-top: 446px;
 }
 
 .mini-fixx {
@@ -191,7 +197,6 @@
   text-align: center;
   align-items: center;
   flex-direction: column;
-  padding-block: 48px 58px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -206,16 +211,20 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 401px;
 }
 
 .zurag3 {
   background-image: url(./images/zurag3.png);
   height: 580px;
-  justify-content: flex-end;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 4px;
 }
 
 .zurag4 {
@@ -230,7 +239,7 @@
 .zurag5 {
   background-image: url(./images/zurag5.png);
   height: 580px;
-  justify-content: flex-end;
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -295,7 +304,7 @@
 
 .container h2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 36px;
   font-weight: 400;
   line-height: 25px;
   text-align: center;
@@ -321,10 +330,11 @@
   gap: 10px;
   border-radius: 999px;
   opacity: 0px;
+  color: #f5f5f7;
+  border: solid;
 }
 
 .style2 {
-  border: 1px solid #2997ff;
   width: Hug (68px) px;
   height: Hug (40px) px;
   padding: 10px 20px 10px 20px;
@@ -332,6 +342,8 @@
   border-radius: 999px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
+  color: #0071e3;
+  border: solid;
 }
 
 .container h3 {
@@ -344,11 +356,14 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  color: transparent;
+  background-clip: text;
+  width: max-content;
 }
 
 .zurag2 h2 {
   /* background: #F5F5F7; */
-  font-family: Inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
@@ -372,4 +387,118 @@
   align-items: center;
   justify-content: center;
   margin-block: 16px 20px;
+}
+
+.zurag3 style {
+  display: block;
+}
+
+/* .zurag3 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 48px 58px;
+} */
+
+.zurag3-fonts {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+zurag4-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-block: 48px 58px;
+}
+
+.zurag4-fonts {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-block: 16px 10px;
+}
+
+.zurag5 img {
+  /* width: 100%; */
+  /* height: 61px; */
+  /* object-fit: contain; */
+  /* width: 100%; */
+}
+
+.zurag4-fixed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 58px;
+}
+
+.zurag5-style {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-block: 16px 20px;
+}
+
+.zurag5-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  height: 40px;
+  width: 135px;
+  border-radius: 999px;
+  background-color: #0071e3;
+  border: solid;
+}
+
+.zurag5header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 53px;
+}
+
+.zurag6-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #0071e3;
+  height: 40px;
+  width: 135px;
+  border-radius: 999px;
+  background-color: #f5f5f7;
+  border: solid;
 }
