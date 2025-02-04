@@ -73,8 +73,20 @@
     height: 650px;
   }
 
+  .zurag7 {
+    display: none;
+  }
+
   .zurag1 {
     background-image: url(./);
+  }
+
+  .container h2 {
+    font-size: 5vw;
+  }
+
+  .zurag1-header {
+    width: 100%;
   }
 }
 
@@ -546,4 +558,45 @@ zurag4-header {
   color: white;
   font-weight: bold;
   position: absolute;
+}
+
+@media screen and (max-width: 390px) {
+  .zurag1 {
+    background-image: url(./images/responsive3-1.png);
+    height: 500px;
+  }
+
+  .zurag2 {
+    background-image: url(./images/responsive3-2.png);
+    height: 500px;
+  }
+
+  .zurag3 {
+    background-image: url(./images/responsive3-3.png);
+    height: 500px;
+  }
+
+  .zurag4 {
+    background-image: url(./images/responsive3-4.png);
+    height: 500px;
+  }
+
+  .zurag5 {
+    background-image: url(./images/responsive3-5.png);
+    height: 500px;
+  }
+
+  .zurag6 {
+    background-image: url(./images/responsive3-6.png);
+    height: 500px;
+  }
+
+  .container {
+    display: grid;
+    grid: none;
+  }
+
+  .zurag1-header {
+    width: 100%;
+  }
 }
